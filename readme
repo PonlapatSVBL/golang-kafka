@@ -1,0 +1,6 @@
+1. docker exec -it kafka /bin/sh
+2. cd opt/kafka_2.13-2.8.1/bin
+3. kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic <topic_name>
+4. kafka-topics.sh --list --zookeeper zookeeper:2181
+5. kafka-topics.sh --describe --zookeeper zookeeper:2181 --topic <topic_name>
+6. kafka-topics.sh --delete --zookeeper zookeeper:2181 --topic <topic_name>
