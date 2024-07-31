@@ -4,3 +4,5 @@
 4. kafka-topics.sh --list --zookeeper zookeeper:2181
 5. kafka-topics.sh --describe --zookeeper zookeeper:2181 --topic <topic_name>
 6. kafka-topics.sh --delete --zookeeper zookeeper:2181 --topic <topic_name>
+
+Ref: https://medium.com/@rayato159/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-kafka-%E0%B9%83%E0%B8%99-golang-%E0%B8%88%E0%B8%B2%E0%B8%81-zero-to-hero-maybe-a9538720ca75
